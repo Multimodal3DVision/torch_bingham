@@ -66,7 +66,7 @@ To load a trained model and evaluate run:
 `python main.py --restore --model "Specify your model"`
 
 #### Dataset
-We captured five highly ambiguous scenes aimed for evaluation of camera relocalization methods. We gathered the scenes with a mobile phone using Google Tango and RTABMap (http://introlab.github.io/rtabmap/) to obtain corresponding ground truth camera poses. Training and testing sequences consist of distinct camera trajectories registered to the same reference frame to enable re-localization. The full dataset can be downloaded using the following [link](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip).
+We captured five highly ambiguous scenes aimed for evaluation of camera relocalization methods. We gathered the scenes with a mobile phone using Google Tango and RTABMap (http://introlab.github.io/rtabmap/) to obtain corresponding ground truth camera poses. Training and testing sequences consist of distinct camera trajectories registered to the same reference frame to enable re-localization. The full dataset can be downloaded using the following [link](http://campar.in.tum.de/files/AmbiguousRelocDataset/Ambiguous_ReLoc_Dataset.zip){:target="_blank" rel="noopener"}.
 
 ![Image of Ambiguous Relocalization Dataset](cam_reloc/dataset.png)
 #### Structure
